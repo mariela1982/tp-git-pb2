@@ -4,10 +4,10 @@ public class Circulo extends Figura  {
 	
 	private Double radio = 0.0;
 	private Double resultado;
-	private String color;
+	
 
 	public Circulo(String color, Double radio) {
-	 this.color= color;
+	 super(color);
 	 this.radio = radio;
 	}
 	
@@ -25,16 +25,7 @@ public class Circulo extends Figura  {
 
 
 
-	public String getColor() {
-		return color;
-	}
-
-
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-
+	
 
 
 	@Override

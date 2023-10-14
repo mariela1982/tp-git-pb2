@@ -2,26 +2,17 @@ package ar.edu.unlam.figurasTp;
 
 public class Cuadrado extends Figura {
 	
-	private String color = "";
+	
 	private Double lado = 0.0;
 	private Double resultado = 0.0;
 
 	public Cuadrado(String color, Double lado) {
-		this.color = color;
+		super(color);
 		this.lado = lado;
 	}
 	
 	
 
-	public String getColor() {
-		return color;
-	}
-
-
-
-	public void setColor(String color) {
-		this.color = color;
-	}
 
 
 

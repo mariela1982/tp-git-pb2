@@ -2,28 +2,19 @@ package ar.edu.unlam.figurasTp;
 
 public class Rectangulo extends Figura {
 	
-	private String color = "";
+	
 	private Double lado1 = 0.0, lado2 = 0.0;
 	private Double resultado = 0.0;
 
 	public Rectangulo(String color, Double lado1, Double lado2) {
-		this.color = color;
+		super(color);
 		this.lado1 = lado1;
 		this.lado2 = lado2;
 	}
 	
 	
 
-	public String getColor() {
-		return color;
-	}
-
-
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-
+	
 
 
 	public Double getLado1() {
